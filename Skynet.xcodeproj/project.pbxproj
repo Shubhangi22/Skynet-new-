@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1878C8D825D1913200E36DC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878C8D725D1913200E36DC2 /* AppDelegate.swift */; };
+		1878C8DA25D1913200E36DC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878C8D925D1913200E36DC2 /* SceneDelegate.swift */; };
+		1878C8DC25D1913200E36DC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878C8DB25D1913200E36DC2 /* ViewController.swift */; };
+		1878C8DF25D1913200E36DC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1878C8DD25D1913200E36DC2 /* Main.storyboard */; };
+		1878C8E125D1913600E36DC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1878C8E025D1913600E36DC2 /* Assets.xcassets */; };
+		1878C8E425D1913600E36DC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1878C8E225D1913600E36DC2 /* LaunchScreen.storyboard */; };
+		1878C8EF25D1913600E36DC2 /* SkynetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878C8EE25D1913600E36DC2 /* SkynetTests.swift */; };
+		1878C8FA25D1913600E36DC2 /* SkynetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878C8F925D1913600E36DC2 /* SkynetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1878C8EB25D1913600E36DC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1878C8CC25D1913200E36DC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1878C8D325D1913200E36DC2;
+			remoteInfo = Skynet;
+		};
+		1878C8F625D1913600E36DC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1878C8CC25D1913200E36DC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1878C8D325D1913200E36DC2;
+			remoteInfo = Skynet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1878C8D425D1913200E36DC2 /* Skynet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skynet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1878C8D725D1913200E36DC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1878C8D925D1913200E36DC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1878C8DB25D1913200E36DC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1878C8DE25D1913200E36DC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1878C8E025D1913600E36DC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1878C8E325D1913600E36DC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1878C8E525D1913600E36DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1878C8EA25D1913600E36DC2 /* SkynetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkynetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1878C8EE25D1913600E36DC2 /* SkynetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkynetTests.swift; sourceTree = "<group>"; };
+		1878C8F025D1913600E36DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1878C8F525D1913600E36DC2 /* SkynetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkynetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1878C8F925D1913600E36DC2 /* SkynetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkynetUITests.swift; sourceTree = "<group>"; };
+		1878C8FB25D1913600E36DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1878C8D125D1913200E36DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1878C8E725D1913600E36DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1878C8F225D1913600E36DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1878C8CB25D1913200E36DC2 = {
+			isa = PBXGroup;
+			children = (
+				1878C8D625D1913200E36DC2 /* Skynet */,
+				1878C8ED25D1913600E36DC2 /* SkynetTests */,
+				1878C8F825D1913600E36DC2 /* SkynetUITests */,
+				1878C8D525D1913200E36DC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1878C8D525D1913200E36DC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1878C8D425D1913200E36DC2 /* Skynet.app */,
+				1878C8EA25D1913600E36DC2 /* SkynetTests.xctest */,
+				1878C8F525D1913600E36DC2 /* SkynetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1878C8D625D1913200E36DC2 /* Skynet */ = {
+			isa = PBXGroup;
+			children = (
+				1878C8D725D1913200E36DC2 /* AppDelegate.swift */,
+				1878C8D925D1913200E36DC2 /* SceneDelegate.swift */,
+				1878C8DB25D1913200E36DC2 /* ViewController.swift */,
+				1878C8DD25D1913200E36DC2 /* Main.storyboard */,
+				1878C8E025D1913600E36DC2 /* Assets.xcassets */,
+				1878C8E225D1913600E36DC2 /* LaunchScreen.storyboard */,
+				1878C8E525D1913600E36DC2 /* Info.plist */,
+			);
+			path = Skynet;
+			sourceTree = "<group>";
+		};
+		1878C8ED25D1913600E36DC2 /* SkynetTests */ = {
+			isa = PBXGroup;
+			children = (
+				1878C8EE25D1913600E36DC2 /* SkynetTests.swift */,
+				1878C8F025D1913600E36DC2 /* Info.plist */,
+			);
+			path = SkynetTests;
+			sourceTree = "<group>";
+		};
+		1878C8F825D1913600E36DC2 /* SkynetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1878C8F925D1913600E36DC2 /* SkynetUITests.swift */,
+				1878C8FB25D1913600E36DC2 /* Info.plist */,
+			);
+			path = SkynetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1878C8D325D1913200E36DC2 /* Skynet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1878C8FE25D1913600E36DC2 /* Build configuration list for PBXNativeTarget "Skynet" */;
+			buildPhases = (
+				1878C8D025D1913200E36DC2 /* Sources */,
+				1878C8D125D1913200E36DC2 /* Frameworks */,
+				1878C8D225D1913200E36DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skynet;
+			productName = Skynet;
+			productReference = 1878C8D425D1913200E36DC2 /* Skynet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1878C8E925D1913600E36DC2 /* SkynetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1878C90125D1913600E36DC2 /* Build configuration list for PBXNativeTarget "SkynetTests" */;
+			buildPhases = (
+				1878C8E625D1913600E36DC2 /* Sources */,
+				1878C8E725D1913600E36DC2 /* Frameworks */,
+				1878C8E825D1913600E36DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1878C8EC25D1913600E36DC2 /* PBXTargetDependency */,
+			);
+			name = SkynetTests;
+			productName = SkynetTests;
+			productReference = 1878C8EA25D1913600E36DC2 /* SkynetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1878C8F425D1913600E36DC2 /* SkynetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1878C90425D1913600E36DC2 /* Build configuration list for PBXNativeTarget "SkynetUITests" */;
+			buildPhases = (
+				1878C8F125D1913600E36DC2 /* Sources */,
+				1878C8F225D1913600E36DC2 /* Frameworks */,
+				1878C8F325D1913600E36DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1878C8F725D1913600E36DC2 /* PBXTargetDependency */,
+			);
+			name = SkynetUITests;
+			productName = SkynetUITests;
+			productReference = 1878C8F525D1913600E36DC2 /* SkynetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1878C8CC25D1913200E36DC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ios development";
+				TargetAttributes = {
+					1878C8D325D1913200E36DC2 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					1878C8E925D1913600E36DC2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1878C8D325D1913200E36DC2;
+					};
+					1878C8F425D1913600E36DC2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1878C8D325D1913200E36DC2;
+					};
+				};
+			};
+			buildConfigurationList = 1878C8CF25D1913200E36DC2 /* Build configuration list for PBXProject "Skynet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1878C8CB25D1913200E36DC2;
+			productRefGroup = 1878C8D525D1913200E36DC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1878C8D325D1913200E36DC2 /* Skynet */,
+				1878C8E925D1913600E36DC2 /* SkynetTests */,
+				1878C8F425D1913600E36DC2 /* SkynetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1878C8D225D1913200E36DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1878C8E425D1913600E36DC2 /* LaunchScreen.storyboard in Resources */,
+				1878C8E125D1913600E36DC2 /* Assets.xcassets in Resources */,
+				1878C8DF25D1913200E36DC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1878C8E825D1913600E36DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1878C8F325D1913600E36DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1878C8D025D1913200E36DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1878C8DC25D1913200E36DC2 /* ViewController.swift in Sources */,
+				1878C8D825D1913200E36DC2 /* AppDelegate.swift in Sources */,
+				1878C8DA25D1913200E36DC2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1878C8E625D1913600E36DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1878C8EF25D1913600E36DC2 /* SkynetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1878C8F125D1913600E36DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1878C8FA25D1913600E36DC2 /* SkynetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1878C8EC25D1913600E36DC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1878C8D325D1913200E36DC2 /* Skynet */;
+			targetProxy = 1878C8EB25D1913600E36DC2 /* PBXContainerItemProxy */;
+		};
+		1878C8F725D1913600E36DC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1878C8D325D1913200E36DC2 /* Skynet */;
+			targetProxy = 1878C8F625D1913600E36DC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1878C8DD25D1913200E36DC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1878C8DE25D1913200E36DC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1878C8E225D1913600E36DC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1878C8E325D1913600E36DC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1878C8FC25D1913600E36DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1878C8FD25D1913600E36DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1878C8FF25D1913600E36DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2N6DPDVCCH;
+				INFOPLIST_FILE = Skynet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WinchesterTechnologies.Skynet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1878C90025D1913600E36DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2N6DPDVCCH;
+				INFOPLIST_FILE = Skynet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WinchesterTechnologies.Skynet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1878C90225D1913600E36DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2N6DPDVCCH;
+				INFOPLIST_FILE = SkynetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WinchesterTechnologies.SkynetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skynet.app/Skynet";
+			};
+			name = Debug;
+		};
+		1878C90325D1913600E36DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2N6DPDVCCH;
+				INFOPLIST_FILE = SkynetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WinchesterTechnologies.SkynetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skynet.app/Skynet";
+			};
+			name = Release;
+		};
+		1878C90525D1913600E36DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2N6DPDVCCH;
+				INFOPLIST_FILE = SkynetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WinchesterTechnologies.SkynetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Skynet;
+			};
+			name = Debug;
+		};
+		1878C90625D1913600E36DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2N6DPDVCCH;
+				INFOPLIST_FILE = SkynetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WinchesterTechnologies.SkynetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Skynet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1878C8CF25D1913200E36DC2 /* Build configuration list for PBXProject "Skynet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1878C8FC25D1913600E36DC2 /* Debug */,
+				1878C8FD25D1913600E36DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1878C8FE25D1913600E36DC2 /* Build configuration list for PBXNativeTarget "Skynet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1878C8FF25D1913600E36DC2 /* Debug */,
+				1878C90025D1913600E36DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1878C90125D1913600E36DC2 /* Build configuration list for PBXNativeTarget "SkynetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1878C90225D1913600E36DC2 /* Debug */,
+				1878C90325D1913600E36DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1878C90425D1913600E36DC2 /* Build configuration list for PBXNativeTarget "SkynetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1878C90525D1913600E36DC2 /* Debug */,
+				1878C90625D1913600E36DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1878C8CC25D1913200E36DC2 /* Project object */;
+}
